@@ -3,7 +3,7 @@ class Book:
         self.book_id = book_id
         self.title = title
         self.author = author
-        self.quantity = quantity  # Track available copies
+        self.quantity = quantity 
 
     def check_availability(self):
         return self.quantity > 0
